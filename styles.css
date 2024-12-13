@@ -38,19 +38,19 @@ a:focus {
     background-color: green;
     padding: 17%;
 }
-a:hover{background-color: green;
+a:hover{ font-size:larger;
     
-    
-        }
-        div>img{
-            border:solid lightgreen;
-            border-radius: 10%;
-            box-shadow: black;
-        }
+     }
 
-header{
-    border: dotted black;
-    padding: 1em;
+nav li a {
+color: beige;
 }
 
-    
+.afleveringen img{
+    border:solid lightgreen;
+    border-radius: 10%;
+    box-shadow: black;
+}
+.afleveringen img:hover {
+    transform: scale(2);
+}   
