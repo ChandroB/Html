@@ -1,0 +1,56 @@
+body{background-color: #12341E;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: whitesmoke;
+
+}
+
+img{
+width: 40%;
+border-radius: 50%;
+
+
+}
+ul{
+    display: flex;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
+li{
+    margin:2em;
+    
+    
+    
+
+}
+    
+nav{
+background-color:#CF0F0F;
+border: solid white;
+text-transform:uppercase;
+
+
+
+
+}
+
+a:focus {
+    background-color: green;
+    padding: 17%;
+}
+a:hover{background-color: green;
+    
+    
+        }
+        div>img{
+            border:solid lightgreen;
+            border-radius: 10%;
+            box-shadow: black;
+        }
+
+header{
+    border: dotted black;
+    padding: 1em;
+}
+
+    
