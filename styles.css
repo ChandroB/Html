@@ -1,17 +1,15 @@
-body{background-color: #12341E;
+body{background-color: white;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: whitesmoke;
-
+display: flex;
+flex-direction: column;
 }
 
-img{
-width: 40%;
-border-radius: 50%;
+   
 
-
-}
 ul{
     display: flex;
+    flex-direction: column;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     
@@ -24,10 +22,15 @@ li{
 
 }
     
-nav{
+nav ul{
 background-color:#CF0F0F;
 border: solid white;
 text-transform:uppercase;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+
+
 
 
 
@@ -36,7 +39,7 @@ text-transform:uppercase;
 
 a:focus {
     background-color: green;
-    padding: 17%;
+    padding: 0%;
 }
 a:hover{ font-size:larger;
     
@@ -46,11 +49,93 @@ nav li a {
 color: beige;
 }
 
-.afleveringen img{
-    border:solid lightgreen;
-    border-radius: 10%;
-    box-shadow: black;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #12341E;
+    color: #333;
 }
+
+ul.afleveringen {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 66.67em;
+    background-color: white;
+    color: white;
+    
+}
+
+li.aflevering {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: green;
+    border: 0.0625em solid green;
+    border-radius: 0.5em;
+    margin: 1.25em ;
+    overflow: hidden;
+    
+}
+
+li.aflevering img {
+    width: 20%; /* Gelijkmatige breedte in percentages */
+    height: 100%;
+    object-fit: cover;
+    background-color: #12341E;
+    border-right: 0.0625em solid #12341E;
+}
+
+li.aflevering p {
+    margin: 0.625em;
+    line-height: 1.6;
+    font-size: 1 1em ;
+}
+
+li.aflevering p strong {
+    font-size: 1.125em;
+    color: white;
+}
+
+ 
+    li.aflevering {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    li.aflevering img {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1% solid #12341E;
+    }
+
+
 .afleveringen img:hover {
-    transform: scale(2);
+    transform:scale(1.1);
+    transition-duration: 5s
+    
+    
+    
+    ;
+    
+
 }   
+
+main{
+    border:solid white ;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5%;
+    border-style: solid;
+    border-color: green;
+    border: 10%
+    
+
+}
+
+img{
+    width: 40%;
+}
